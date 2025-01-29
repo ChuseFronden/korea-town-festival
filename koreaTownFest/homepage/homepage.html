@@ -1,27 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Korea Town Festival in Finland</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<!-- homepage.html -->
+<section id="home">
+    <div class="hero-banner">
+        <h1>Welcome to Korea Town Festival</h1>
+        <p>Celebrating Korean Culture in Finland!</p>
+        <a href="#events" class="btn-primary">Explore Events</a>
+    </div>
+</section>
 
-    <!-- Header Section -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Schedule</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Sponsors</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<section id="about">
+    <div class="container">
+        <h2>About the Festival</h2>
+        <p>Join us for a week of exciting events that showcase the best of Korean culture, food, and entertainment right here in Finland. The Korea Town Festival brings together Korean traditions and Finnish hospitality.</p>
+    </div>
+</section>
 
-    <script src="scripts.js"></script>
-</body>
-</html>
+<section id="events">
+    <div class="container">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>
+                <h3>K-Pop Dance Contest</h3>
+                <p>Show off your K-Pop moves and win exciting prizes!</p>
+            </li>
+            <li>
+                <h3>Korean Food Tasting</h3>
+                <p>Enjoy traditional Korean dishes and snacks prepared by local chefs.</p>
+            </li>
+            <li>
+                <h3>Korean Movie Screening</h3>
+                <p>Watch the latest Korean movies under the stars!</p>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or want to know more about the event, feel free to reach out!</p>
+        <form action="mailto:info@koreatownfestival.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
